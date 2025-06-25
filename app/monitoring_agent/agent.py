@@ -82,7 +82,7 @@ async def monitor_video_stream(
         yield {"response": response}
 
     # Wait before checking for new images
-    await asyncio.sleep(0.5)
+    await asyncio.sleep(10)
 
 # Use this exact function to help ADK stop your streaming tools when requested.
 # for example, if we want to stop `monitor_stock_price`, then the agent will

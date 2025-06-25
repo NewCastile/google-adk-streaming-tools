@@ -23,7 +23,7 @@ const monitorPriceButton = document.getElementById("monitorPriceButton");
 const monitorPricePrompt = "Help me monitor the stock price for $XYZ stock.";
 /** string */
 const monitorStreamPrompt =
-  "Help me monitor how many people are there in the video stream.";
+  "Help me monitor what the user is doing and watching in the video stream.";
 let currentMessageId = null;
 
 // SSE handlers
